@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="title_section">
+        <h1>AutoDgn</h1>
+        <h2>for Chrome</h2>
+        <p><a href="#">github.com/joaoguilhermemendes/AutoDgn</a></p>
+    </section>
+    <hr>
+
+    <section id="dgn_type_section">
+        <div class="flex" id="dgn_options">
+            
+            <div class="columns">
+                <ul style="margin-left: -20px;">
+                    <li><input type="radio" value="TPA" name="option" checked>Tórax (PA)</li>
+                    <li><input type="radio" value="TPP" name="option">Tórax (PA/PERFIL)</li>
+                    <li><input type="radio" value="SEI" name="option">Seios da Face</li>
+                    <li><input type="radio" value="ADN" name="option">Cavum</li>
+                </ul>
+            </div>
+            <div class="columns">
+                <ul>
+                    <li><input type="radio" value="CLC" name="option">Coluna Cervical</li>
+                    <li><input type="radio" value="CLD" name="option">Coluna Dorsal</li>
+                    <li><input type="radio" value="CLL" name="option">Coluna Lombar</li>
+                    <li><input type="radio" value="ABD"  name="option">Abdome</li>
+                </ul>
+            </div>
+            <div class="columns">
+                <ul>
+                    <li><input type="radio" value="CRN" name="option">Crânio</li>
+                    <li><input type="radio" value="BAC" name="option">Bacia</li>
+                    <li><input type="radio" value="GER" name="option">Articulações</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="center tutorial">
+        - Caso começe a frase com letra maiúscula, mudar para minúscula <br>
+        - Colocar "/" antes dos números que representem linhas. <br>
+        - Retirar "-" da sintaxe de vértebras como L4-L5.
+    </div>
+
+    <div class="center">
+        <input id=text_box type="text" placeholder="REC - /1 - /2 - AAT - DC alteração">
+    </div>
+
+    <div class="center">
+        <button class="center" id="generate-bttn">Gerar</button>
+    </div>
+    
+    <div id="styledBox" class="center" style="display: none;">
+        <div id="styledBox_title" class="flex" style="margin-bottom: 0px;">
+            <h2>Laudo de Radiologia</h2>
+            <p id="resetButton">apagar</p>
+            <p id="copyButton">copiar</p>
+        </div>
+        <div id="styledBox_content" style="margin-top: 0px;">
+            <div id="results_container"></div>
+        </div>
+    </div> 
+
+</body>
+    <script src="script.js" type="module"></script>
+</html>

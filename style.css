@@ -1,0 +1,172 @@
+/*############  Global */
+body {
+    min-width: 480px;
+    margin: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.center { 
+    text-align: center; 
+}
+
+.flex {
+    display: flex;
+    margin: auto;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+/*############  Title Section */
+#title_section { 
+    display: flex; 
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title_section h1 {
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    font-size: 17pt;
+    color: #575454;
+}
+
+#title_section h2 {
+    margin: 0px;
+    margin-right: 80px;
+    padding: 0px;
+    color: #2ad7ef;
+    font-size: 14px;
+}
+
+#title_section p a{
+    color: #575454;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+/*############  Laudo Type */
+#dgn_type_section {
+    margin: auto;
+    margin: 20px 0px;
+    color: #626362;
+}
+
+#dgn_options {
+    width: 430px;
+    background-color: #CCF2F8;
+    border-radius: 10px;
+    border: 2px solid #2ad7ef;
+}
+
+ul {
+    list-style: none;
+    padding-left: -40px;
+}
+
+/*############  How to use */
+.tutorial {
+    width: 415px;
+    margin: auto;
+    color: #575454;
+    text-align: left;
+}
+
+.tutorial p{
+    margin: 3px 0px;
+}
+
+
+/*############  Input text */
+#text_box {
+    border: 0px #626262;
+    border-radius: 5px;
+    width: 415px;
+    height: 30px;
+    background-color: #d9dbdb;
+    padding: 10px;
+    font-size: 11px;
+    margin: 20px 0px 10px 0px;
+}
+
+/*############  Button */
+button {
+    background-color: #2ad7ef;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    margin-bottom: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #626362;
+    color: white;
+    cursor: pointer;
+}
+
+/*############  Results container section */
+#styledBox {
+    margin: auto;
+    width: 420px;
+}
+
+#styledBox_title {
+    background-color: #626362;
+    color: #d9dbdb;
+    font-family: sans-serif;
+    margin-top: 40px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#styledBox_title h2{
+    float: left;
+    width: 70%;
+    text-align: left;
+    margin: 5px;
+}
+
+#styledBox_title p{
+    float: right;
+    width: 12%;
+    text-align: right;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#copyButton:hover{
+    color: #2ad7ef;
+    cursor: pointer;
+}
+
+#resetButton:hover{
+    color: #eb7272;
+    cursor: pointer;
+}
+
+#styledBox_content {
+    text-align: left;
+    background-color: #d9dbdb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#styledBox_content p{
+    margin: 0px;
+    padding: 5px 15px;
+    font-size: 11px;
+    font-family: sans-serif;
+}
