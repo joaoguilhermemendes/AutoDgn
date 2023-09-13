@@ -16,7 +16,6 @@ resetButton.addEventListener('click', resetText)
 
 // Function to convert some numeric acrons (ex: 1 - 2) to the respective 1's and 2's based on selected dgn_type on radio button.
 function defineDgnType(arr) {
-    window.alert(arr)
     for (let i = 0; i < arr.length; i++) {
         let regex = /^\s*\/?[1-9]\s*$/;
         let match;
