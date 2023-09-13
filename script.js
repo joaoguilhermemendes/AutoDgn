@@ -2,7 +2,7 @@ import {
     acron_to_phrase
 } from './acrons.js';
 
-//  Identify and Set the button as a trigger to call the main function
+// Identify and Set the button as a trigger to call the main function
 let generate_bttn = document.getElementById('generate-bttn');
 generate_bttn.addEventListener("click", generateAutoDgn)
 
@@ -16,17 +16,20 @@ resetButton.addEventListener('click', resetText)
 
 // Function to convert some numeric acrons (ex: 1 - 2) to the respective 1's and 2's based on selected dgn_type on radio button.
 function defineDgnType(arr) {
+    window.alert(arr)
     for (let i = 0; i < arr.length; i++) {
-        let regex = /\/[0-9]/g;
+        let regex = /^\s*\/?[1-9]\s*$/;
         let match;
         let type = document.querySelector('input[name="option"]:checked').value;
 
         if ((match = regex.exec(arr[i])) !== null) {
-            let test = match[0];
-            let before = test[0];
-            let after = test[1];
-            arr[i] = before+type+after;
+            window.alert(typeof(match))
+            arr[i] = arr[i].replace(/\s+/g, '')
+            window.alert(arr[i])
+
             arr[i] = arr[i].replace(/\//g, '')
+            arr[i] = type+arr[i];
+            window.alert(arr[i])
         }
     }
     return arr;
