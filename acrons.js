@@ -202,7 +202,7 @@ export let acron_to_phrase = {
     ONCV:	    "Osteófito nos corpos vertebrais",
     OI:	        "Osteófitos incipientes",
     OMS:	    "Osteófitos marginais",
-    OMAs:	    "Osteófitos marginais anteriores",
+    OMAS:	    "Osteófitos marginais anteriores",
     OMAPD:	    "Osteófitos marginais anteriores à partir de",
     OMACV:	    "Osteófitos marginais em alguns corpos vertebrais",
     OMPS:	    "Osteófitos marginais periarticulares",
