@@ -22,13 +22,9 @@ function defineDgnType(arr) {
         let type = document.querySelector('input[name="option"]:checked').value;
 
         if ((match = regex.exec(arr[i])) !== null) {
-            window.alert(typeof(match))
             arr[i] = arr[i].replace(/\s+/g, '')
-            window.alert(arr[i])
-
             arr[i] = arr[i].replace(/\//g, '')
             arr[i] = type+arr[i];
-            window.alert(arr[i])
         }
     }
     return arr;
