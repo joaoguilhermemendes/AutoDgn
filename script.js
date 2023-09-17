@@ -33,7 +33,7 @@ function defineDgnType(arr) {
 // Function receive the input line and change the acrons into his meanings
 function extractAcrons(arr) {  
     for (let i = 0; i < arr.length; i++) {
-        let regex = /[A-Z]+\d*/g;
+        let regex = /[A-Z]+(?![a-z])\d*/g; 
         let match;
 
         while ((match = regex.exec(arr[i])) !== null) {
