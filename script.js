@@ -2,7 +2,7 @@ import {
     acron_to_phrase
 } from './acrons.js';
 
-//  Identify and Set the button as a trigger to call the main function
+// Identify and Set the button as a trigger to call the main function
 let generate_bttn = document.getElementById('generate-bttn');
 generate_bttn.addEventListener("click", generateAutoDgn)
 
