@@ -6,7 +6,7 @@ import {
 let generate_bttn = document.getElementById('generate-bttn');
 generate_bttn.addEventListener("click", generateAutoDgn)
 
-// Identify and Set the button as a trigger to call the copyText function
+//  Identify and Set the button as a trigger to call the copyText function
 let copyButton = document.getElementById('copyButton');
 copyButton.addEventListener('click', copyText);
 
