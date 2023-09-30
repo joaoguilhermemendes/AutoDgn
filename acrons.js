@@ -1,5 +1,5 @@
 export let acron_to_phrase = {
-    ATI:	    "Acentuação da trama intersticial",
+    ATI:	     "Acentuação da trama intersticial",
     AMD:	    "Alargamento mediastinal",
     ACCTCT:	    "A critério clínico complementar com TC de tórax, para melhor avaliação.",
     ACCTCAP:	"A critério clínico complementar com “TC” de abdome e pelve.",
