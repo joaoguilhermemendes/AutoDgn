@@ -2,7 +2,7 @@
 Ferramenta que usa um banco de siglas e significados para tornar mais rápida a escrita de laudos de radiologia.
 
 ## Exemplos
- <img src="demos/AutoDgn-left.png" width="350px"> <img src="demos/AutoDgn-right.png" width="350px"> 
+ <img src="demos/AutoDgn-left.png"> <img src="demos/AutoDgn-right.png" > 
 
 ## Começando...
 1. Para executar em desenvolvimento local ou rodar a partir do código-fonte:
