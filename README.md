@@ -15,7 +15,7 @@ Ferramenta que usa um banco de siglas e significados para tornar mais rápida a 
     * Ative o botão de `Modo do desenvolvedor` 
     * Clique em `Carregar sem compactação`
     * Selecione a pasta clonada
-    * Clique no ícone da extensão > Fixar
+    * Clique no ícone da extensão >  Fixar
     
 ## Conceito
 Durante o ano de 2023, eu trabalhei em um hospital.
