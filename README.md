@@ -42,6 +42,4 @@ Espaços discais conservados. \
 Alongamento da aorta torácica. \
 Discreto(a) alteração do disco central. 
 
-A maneira que eu resolvi usar para simplificar isso um pouco, foi criar um lugar onde eu poderia colar a linha enviada pelo radiologista, e isso me gerar o texto completo. Substituindo todos as siglas e adequando ao número de linha do tipo de radiologia correto. Uma solução simples que não tive muito tempo para refinar ainda.
-
-
+A maneira que eu resolvi usar para simplificar isso um pouco, foi criar um lugar onde eu poderia colar a linha enviada pelo radiologista, e isso me gerar o texto completo. Substituindo todos as siglas e adequando ao número de linha do tipo de radiologia correto. Uma solução simples que não tive muito tempo para refinar.
